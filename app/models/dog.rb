@@ -3,6 +3,7 @@ class Dog
   @@all=[]
 
   def initialization(name, breed, age)
+    binding.pry
     @name = name
     @breed = breed
     @age = age
