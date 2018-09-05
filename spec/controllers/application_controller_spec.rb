@@ -1,6 +1,6 @@
 require 'pry'
 
-require_relative "../../models/dog.rb"
+require_relative "../../app/models/dog.rb"
 
 describe ApplicationController do
   describe 'Dog class' do
